@@ -1,0 +1,75 @@
+.right-content{
+    width: 100%;
+    background-color: rgb(206, 220, 241);
+    border-radius: 0 10px 10px 0;
+    height: 100%;
+    margin-right: 1px;
+}
+.right-content-header{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-left: 77%;
+}
+.calender-grid{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+.day-name{
+    text-align: center;
+    color: darkblue;
+}
+.calender-cell{
+    text-align: center;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: darkblue;
+}
+.times{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+.calender-time{
+    font-size: 12px;
+}
+.appointment-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 80px;
+}
+.appointment-card{
+    border: 0px solid ;
+    background-color: darkblue;
+    color: white;
+    border-radius: 15px;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.upcoming-day h4{
+    margin-left: 50px;
+}
+.upcoming-appointments{
+    display: flex;
+    justify-content: space-between; 
+    margin-left: 25px;
+    margin-right: 80px;
+}
+.upcoming-time{
+    border: 0px solid;
+    border-radius: 10px;
+    background-color: rgb(159, 189, 235);
+    color: darkblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin:15px;
+}

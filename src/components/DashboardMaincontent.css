@@ -1,0 +1,193 @@
+.searchbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.searchbar input{
+    font-size: 15px;
+    width: 30vw;
+    height: 5vh;
+}
+.searchbar .search-icon{
+  position: absolute;
+  left: 10px;
+  pointer-events: none;
+}
+.search-icon{
+    color: lightgray;
+    font-size: 5px;  
+}
+.search-input{
+    padding: 8px 12px 8px 40px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+}
+.bell-icon{
+    position: absolute;
+    right:44%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: darkblue;
+}
+.anatomyComponent{
+    margin-right: 220px;
+}
+.anatomy-details{
+    position: relative;
+    display: flex;
+    gap: 70px;
+}
+.anatomy-image{
+   background-color: rgb(206, 220, 241);
+   width: 350px;
+   height: 420px;
+   border-radius: 15px;
+   margin-left: 45px;
+}
+.anatomy-image img{
+    width: 24vw;
+    height: 50vh;
+    margin-top: 25px;
+}
+.anatomy-indicator{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 181px;
+    border-radius: 5px;
+}
+.indicator-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+}
+.indicator-details p{
+    padding-top: 6px;
+}
+.indicator-details img{
+    width: 15px;
+    height: 15px;
+    margin-bottom: 19px;
+}  
+.healthStatus-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+     gap: 8px;
+}
+.health-card-details{
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(206, 220, 241);
+    border-radius: 15px;
+    height: 120px;
+    width: 168px;
+}
+.health-card-details img{
+    width: 30px;
+    height: 30px;
+}
+.progress-bar-wrapper{
+    width: 140px;
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 15px;
+}
+.progress-bar{
+   height: 100%;
+   border-radius: 5px;
+}
+.activity-details{
+    width: 92%;
+    height: 25%;
+    background-color: rgb(206, 220, 241);
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.bar-chart{
+    display: flex;
+    justify-content: space-around;
+    height: 130px;
+    gap: 10px;
+}
+.bar{
+    width: 5px;
+    background-color: #5baaba;
+    border-radius: 5px;
+}
+.bar-item{
+    display: flex;
+    flex-direction: column;
+}
+.bar-label{
+    margin-top: 10px;
+    color: gray;
+}
+
+@media (max-width: 1024px) {
+    .bell-icon {
+    position: absolute;
+    right: 69%; 
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 0; 
+  }
+  .anatomy-details {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .indicator-details {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+  .healthStatus-card{
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .searchbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  .bell-icon {
+    position: absolute;
+    right: 67%; 
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 0; 
+  }
+
+  .bar-chart {
+    height: 150px;
+    gap: 5px;
+  }
+
+  .indicator-details {
+    position: static;
+    margin: 10px 0;
+  }
+
+  .anatomy-indicator {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
