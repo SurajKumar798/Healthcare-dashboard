@@ -52,7 +52,7 @@ function Sidebar() {
               <ul>
                 <li>
                   <MessageCircleMore />
-                  <a href='chat'>Chat</a>
+                  <a href='/chat'>Chat</a>
                 </li>
 
                 <li>
