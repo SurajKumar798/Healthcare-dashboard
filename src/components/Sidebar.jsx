@@ -25,39 +25,39 @@ function Sidebar() {
 
                 <li>
                   <LayoutDashboard />
-                  <a href='#'>Dashboard</a>
+                  <a href='/dashboard'>Dashboard</a>
                 </li>
 
                 <li>
                   <ArrowUpDown />
-                  <a href='#'>History</a>
+                  <a href='/history'>History</a>
                 </li>
 
                 <li>
                   <CalendarDays />
-                  <a href='#'>Calender</a>
+                  <a href='/calender'>Calender</a>
                 </li>
 
                 <li>
                   <SquarePlus />
-                  <a href='#'>Appointments</a>
+                  <a href='/appointment'>Appointments</a>
                 </li>
 
                 <li>
                   <ChartLine />
-                  <a href='#'>Statistics</a>
+                  <a href='/statistics'>Statistics</a>
                 </li>
               </ul>
               <h4>Tools</h4>
               <ul>
                 <li>
                   <MessageCircleMore />
-                  <a href='#'>Chat</a>
+                  <a href='chat'>Chat</a>
                 </li>
 
                 <li>
                   <Phone />
-                  <a href='#'>Support</a>
+                  <a href='/support'>Support</a>
                 </li>
 
               </ul>
@@ -74,6 +74,11 @@ function Sidebar() {
         </div>
       </div>
     </div>
+  )
+}
+
+export default Sidebar;
+
   )
 }
 
