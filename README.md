@@ -4,7 +4,7 @@ A responsive and interactive healthcare dashboard built using **React**. This da
 
 ## 🚀 Demo
 
-[Live Demo Link](https://your-deployed-link.com) <!-- Replace with your actual deployed URL -->
+[Live Demo Link](https://cheerful-malasada-5902f0.netlify.app/) <!-- Replace with your actual deployed URL -->
 
 ---
 
